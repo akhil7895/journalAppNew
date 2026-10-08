@@ -1,0 +1,8 @@
+package in.codewithakhil.journalAppNew.repository;
+
+import in.codewithakhil.journalAppNew.entity.JournalEntry;
+import org.bson.types.ObjectId;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface JournalEntryRepository extends MongoRepository<JournalEntry , ObjectId> {
+}
